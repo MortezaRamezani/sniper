@@ -18,3 +18,12 @@ Single-threaded and Pthread applications
 * Link with the SNIPER_LDFLAGS options
 * Run with LD_LIBRARY_PATH set to SNIPER_LD_LIBRARY_PATH
 
+
+
+To compiler with newer version of GCC/G++ (5.0+), add this flag to the compiler:
+
+-fabi-version=2
+
+example:
+
+export CXXFLAGS='-fabi-version=2'
