@@ -25,5 +25,10 @@ To compiler with newer version of GCC/G++ (5.0+), add this flag to the compiler:
 -fabi-version=2
 
 example:
-
 export CXXFLAGS='-fabi-version=2'
+
+but then pin2.14 doesn't work with it, so just don't try it :P
+
+
+export LD_LIBRARY_PATH="/usr/local/include/boost/"
+export BOOST_INCLUDE="/usr/local/include/"

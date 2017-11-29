@@ -1,0 +1,4 @@
+=======================================================
+Run newer version of PIN:
+./pinbin
+export LD_LIBRARY_PATH=LD_LIBRARY_PATH:/home/morteza/Works/pin-3.5/extras/xed-intel64/lib/:/home/morteza/Works/pin-3.5/intel64/runtime/pincrt/

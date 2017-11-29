@@ -8,6 +8,7 @@
 
 # vi temp files
 *.swp
+*.swo
 
 # test output
 *.log
@@ -54,3 +55,7 @@ python_kit
 
 pin_kit_new/
 lib/
+test-scripts/
+# I'm not sure *.svg is the correct way to do it!
+test/*/viz/
+test/*/*.svg
