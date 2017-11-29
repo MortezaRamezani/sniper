@@ -54,3 +54,6 @@ python_kit
 
 pin_kit_new/
 lib/
+test-scripts/
+test/*/viz/
+test/*/*.svg
